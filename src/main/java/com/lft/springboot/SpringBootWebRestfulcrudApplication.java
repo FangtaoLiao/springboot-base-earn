@@ -10,7 +10,7 @@ import java.util.Locale;
 
 @SpringBootApplication
 public class SpringBootWebRestfulcrudApplication {
-
+	//我就加个注释测试一下分支功能
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootWebRestfulcrudApplication.class, args);
 	}
