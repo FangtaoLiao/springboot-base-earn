@@ -2,6 +2,7 @@ package com.lft.springboot.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.util.StringUtils;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -21,5 +22,11 @@ public class LoginController {
            map.put("msg","用户名密码错误");
            return "login";
        }
+    }
+    @GetMapping("/user/out")
+    public String loginOut(Map<String,Object> map,HttpSession session){
+       session.removeAttribute("loginUser");
+        map.put("msg","已经登出！");
+       return "login";
     }
 }

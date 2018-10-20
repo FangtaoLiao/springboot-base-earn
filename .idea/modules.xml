@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Canteen/Canteen.iml" filepath="$PROJECT_DIR$/../Canteen/Canteen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../lt04-spring-boot-canteen/lt04-spring-boot-canteen.iml" filepath="$PROJECT_DIR$/../lt04-spring-boot-canteen/lt04-spring-boot-canteen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Canteen/lt04-spring-boot-cateen.iml" filepath="$PROJECT_DIR$/../Canteen/lt04-spring-boot-cateen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-boot-data/spring-boot-data.iml" filepath="$PROJECT_DIR$/../spring-boot-data/spring-boot-data.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-web-restfulcrud.iml" filepath="$PROJECT_DIR$/spring-boot-web-restfulcrud.iml" />
     </modules>
   </component>

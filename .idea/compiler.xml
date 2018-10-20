@@ -6,10 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Canteen" />
+        <module name="lt04-spring-boot-canteen" />
+        <module name="lt04-spring-boot-cateen" />
+        <module name="spring-boot-data" />
         <module name="spring-boot-web-restfulcrud" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Canteen" target="1.8" />
+      <module name="lt04-spring-boot-canteen" target="1.8" />
+      <module name="lt04-spring-boot-cateen" target="1.8" />
+      <module name="spring-boot-data" target="1.8" />
       <module name="spring-boot-web-restfulcrud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
